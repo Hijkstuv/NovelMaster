@@ -1,9 +1,9 @@
 
 
 from typing import Optional
-from novelmaster import line_control, Crawl_IO, DeepL_IO, Translate_Local_IO, Translate_Notion_IO
+from novelmaster import line_control, Crawl, DeepL_IO, Translate_Local_IO, Translate_Notion_IO
 
-class NovelMaster(Crawl_IO, DeepL_IO, Translate_Local_IO, Translate_Notion_IO):
+class NovelMaster(Crawl, DeepL_IO, Translate_Local_IO, Translate_Notion_IO):
     def __init__(self, novel_title, target_lang):
         Translate_Local_IO.__init__(self, novel_title)
         Translate_Notion_IO.__init__(self)
