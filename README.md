@@ -12,3 +12,4 @@ translate_deepl_token='(your token)'
 
 developing :
 notion upload/download
+use GPT-4o mini (charge some $)
