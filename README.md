@@ -9,3 +9,6 @@ You have to get own DeepL API token (500k char limit / month), and put it in .en
 -----
 translate_deepl_token='(your token)'
 ```
+
+developing :
+notion upload/download
