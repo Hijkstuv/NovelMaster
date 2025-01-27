@@ -6,7 +6,7 @@ class Translate_Local_IO(Local_IO):
     def __init__(self, novel_title):
         Local_IO.__init__(self)
         self.novel_title = novel_title
-        self.base_dir = "C://Task//Translate" # 확장 필요
+        self.base_dir = "C://Task//Translate" # Change this directory, if you need
 
     def readEpisode(self, lang, episode):
         file_dir = self.join(self.base_dir, self.novel_title, lang, episode + ".txt")
